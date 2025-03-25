@@ -19,14 +19,14 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
 - Windows Server 2022
 - Windows 10 (21H2)
 
-<h2>High-Level Deployment and Configuration Steps</h2>
+<h2>High-Level Configuration Steps</h2>
 
 - Step 1: Setup Domain Controller in Azure
-- Step 2: Install Active Directory
-- Step 3: Create Domain Admin User
-- Step 4: Configure Client-A for Non-Administrative Users
+- Step 2: Setup Client VM in Azure
+- Step 3: Install Active Directory
 
-<h2>1. Setup Domain Controller in Azure</h2>
+
+<h2>Setup Domain Controller in Azure</h2>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
