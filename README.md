@@ -32,14 +32,14 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Create a Resource Group and a Virtual Network.</p>
+Create a Resource Group.</p>
 <br />
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Deploy a new Virtual machine (VM) using Windows Server 2022 and name it DC-A.
+Create a Virtual Network.
 </p>
 <br />
 
@@ -47,7 +47,7 @@ Deploy a new Virtual machine (VM) using Windows Server 2022 and name it DC-A.
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Ensure to set the username as testuser and the password as Testuser123!.
+Create a Domain Controller VM (Windows Server 2022) named "DC-A".  Let's use Username: Testuser and Password: Testuser123!
 </p>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -59,7 +59,7 @@ After the VM is created, configure the NIC (Network Interface Card) with a priva
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Log into the VM and disable the Windows Firewall (for testing connectivity).
 </p>
 <h2>2. Setup Client-A in Azure</h2>
 
