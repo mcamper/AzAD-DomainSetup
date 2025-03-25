@@ -117,18 +117,18 @@ Promote DC-A to a Domain Controller, creating a new domain (e.g., medomain.com).
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Set up an Organizational Unit (OU) named _EMPLOYEES and create a new user account Jane Doe with a password.
+Restart and then log back into DC-A as user.
 </p>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Ad Jane Doe to the Domain Admins security group for administrative access.
+Untitled.
 </p>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Test the connection by using PowerShell to ping Client-A from DC-A.
+Untitled.
 </p>
 <br /># AzAD-DomainSetup
