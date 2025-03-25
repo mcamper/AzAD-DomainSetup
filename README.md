@@ -19,11 +19,11 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
 - Windows Server 2022
 - Windows 10 (21H2)
 
-<h2>High-Level Configuration Steps</h2>
+<h2>High-Level Configuration and Deployment Steps</h2>
 
 - Step 1: Setup Domain Controller in Azure
 - Step 2: Setup Client VM in Azure
-- Step 3: Install Active Directory
+- Step 3: Deploying Active Directory
 
 
 <h2>Setup Domain Controller in Azure</h2>
@@ -96,7 +96,7 @@ After creating Client-A, set its DNS settings to point to DC-A's private IP addr
 <p>
 Test the connection by using PowerShell to ping Client-A from DC-A.
 </p>
-<h2>3. Install Active Directory</h2>
+<h2>3. Deploying Active Directory</h2>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
