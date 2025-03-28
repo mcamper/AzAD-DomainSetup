@@ -31,12 +31,12 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
 <h2>Step 1: Preparing Active Directory Infrastructure in Azure</h2>
 <p>
   <ol>
-  <li>Create a Resource Group</li>
-  <li>Create a Windows 10 Virtual Machine (VM)</li>
-    <ul>
-  <li>While creating the VM, select the previously created Resource Group</li>
-  <li>While creating the VM, allow it to create a new Virtual Network (Vnet) and Subnet</li>
-</ul>
+    <li>Setup Domain Controller in Azure</li>
+      <ul>
+        <li>Create a Resource Group</li>
+        <li>Create a Virtual Network and Subnet</li>
+        <li>Create the Domain Controller VM (Windows Server 2022) named "DC-1"</li>
+      </ul>
   <li>Create a Linux (Ubuntu) VM</li>
     <ul>
   <li>While creating the VM, select the previously created Resource Group and Vnet</li>
