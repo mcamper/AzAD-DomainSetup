@@ -30,8 +30,21 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
 
 <h2>Step 1: Preparing Active Directory Infrastructure in Azure</h2>
 <p>
-Create a Resource Group.</p>
-<p>
+  <ol>
+  <li>Create a Resource Group</li>
+  <li>Create a Windows 10 Virtual Machine (VM)</li>
+    <ul>
+  <li>While creating the VM, select the previously created Resource Group</li>
+  <li>While creating the VM, allow it to create a new Virtual Network (Vnet) and Subnet</li>
+</ul>
+  <li>Create a Linux (Ubuntu) VM</li>
+    <ul>
+  <li>While creating the VM, select the previously created Resource Group and Vnet</li>
+</ul>
+  <li>Observe your Virtual Network within Network Watcher</li>
+</ol>
+
+</p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
