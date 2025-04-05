@@ -96,13 +96,11 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
     </ul>
      <li>Set Client-1's DNS settings to DC-1's Private IP address</li>
      <ul>
-      <li>Create the Client VM (Windows 10 Pro) named "Client-1"</li>
        <img width="804" alt="image" src="https://github.com/user-attachments/assets/111a0a47-6ca6-44ab-8af1-ee51de0a0f99" />
        <img width="428" alt="image" src="https://github.com/user-attachments/assets/49922f4c-c697-4bf0-9146-b8bc291d3b4e" />
-       <img width="366" alt="image" src="https://github.com/user-attachments/assets/c4b7eb49-7126-46e3-96bd-0049c2205e24" />
+       <img width="377" alt="image" src="https://github.com/user-attachments/assets/85023d64-2967-4b66-ab38-c1cd954b92a7" />
 
-
-
+       <li>Create the Client VM (Windows 10 Pro) named "Client-1"</li>
       <img width="491" alt="image" src="https://github.com/user-attachments/assets/9db8b6b3-1d4c-4d24-b1a7-c196fe3efc82" />
       <li>For Image, choose Windows 10 Pro, version 22H2 -x64 Gen2. For Size, choose at least 2vcpus or DS2sv</li>
       <img width="485" alt="image" src="https://github.com/user-attachments/assets/5e870fab-8220-45e3-a714-cf2b435707ad" />
