@@ -44,6 +44,24 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
     <ul>
   <li>While creating the VM, select the previously created Resource Group and Vnet</li>
 </ul>
+      <li>Create a Linux (Ubuntu) VM</li>
+    <ul>
+  <li>While creating the VM (Linux-VM), select the previously created Resource Group (RS-NSG)</li>
+      <img width="506" alt="image" src="https://github.com/user-attachments/assets/22d016db-ce67-45a9-bdde-508c11acccf5" />
+  <li>For Image, choose Ubuntu Server 22.04 LTS - x64 Gen2 or 24. For Size, choose at least 2vcpus or DS2sv</li>
+  <img width="497" alt="image" src="https://github.com/user-attachments/assets/ab72af90-922f-4420-8e1a-1cb79660230a" />
+  <li>For Authentication type, choose Password.  Enter a username and password (username: labuser  password: Cyberlab123!) </li>
+  <img width="542" alt="image" src="https://github.com/user-attachments/assets/691404a2-7720-461e-92c6-1dc854d93fc2" />
+  <img width="518" alt="image" src="https://github.com/user-attachments/assets/ccb6fbd2-58e6-4810-9004-9cbb9bfab934" />
+  <li>Do not change any other settings</li>
+  <li>Click Next: Disks.  Click: Next: Networking</li>
+  <img width="298" alt="image" src="https://github.com/user-attachments/assets/f1262388-03c9-4aa7-8420-a93a15ff4b84" />
+  <li>Inside Networking, confirm correct Virtual Network and Subnet that was created in Windows-VM</li>
+  <img width="350" alt="image" src="https://github.com/user-attachments/assets/7dafc92d-f07e-4b94-a4aa-f085d4daf9eb" />
+  <li>Click "Review and Create"</li>
+  <img width="288" alt="image" src="https://github.com/user-attachments/assets/4cae5865-bb3a-43af-a9ba-a6680cbc2d56" />
+  <li>Click "Create"</li>
+</ul>
   <li>Observe your Virtual Network within Network Watcher</li>
 </ol>
 
