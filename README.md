@@ -34,7 +34,10 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
     <li>Setup Domain Controller in Azure</li>
       <ul>
         <li>Create a Resource Group</li>
+        <img width="485" alt="image" src="https://github.com/user-attachments/assets/78f1eedd-6059-42a3-8ed1-f49022093ec8" />
         <li>Create a Virtual Network and Subnet</li>
+        <img width="488" alt="image" src="https://github.com/user-attachments/assets/8b395571-b06d-4b19-afcf-f931e0ac78f0" />
+        <img width="357" alt="image" src="https://github.com/user-attachments/assets/685ba339-b9b4-4889-8d46-99cc260d668e" />
         <li>Create the Domain Controller VM (Windows Server 2022) named "DC-1"</li>
       </ul>
   <li>Create a Linux (Ubuntu) VM</li>
