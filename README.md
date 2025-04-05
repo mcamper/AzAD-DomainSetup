@@ -67,7 +67,7 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
         <li>Confirm you are inside the Domain Controller. The "Server Manager Dashboard" should appear</li>
         <img width="651" alt="image" src="https://github.com/user-attachments/assets/4563c3b7-0499-42c3-93dc-e98334991ebf" />
         <li>Right click the "Start" menu, then type: wf.msc for Windows Firewall (to disable it)</li>
-        <img width="245" alt="image" src="https://github.com/user-attachments/assets/4b3233e6-1301-4dbd-ba70-d70bfcfe232a" />
+        <img width="258" alt="image" src="https://github.com/user-attachments/assets/0aeff83b-f53d-46b3-a66d-3f5d5c7c104b" />
         <li>Under "Public Profile is Active", click "Windows Defender Firewall Properties" (to disable it)</li>
         <img width="465" alt="image" src="https://github.com/user-attachments/assets/32010b4e-9a68-4f79-8e95-7755090d13e9" />
         <li>Turn Firewall state: "Off" for Domain Profile, Private Profile, Public Profile<, "Apply", "OK"/li>
@@ -76,9 +76,9 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
         <img width="248" alt="image" src="https://github.com/user-attachments/assets/cf441824-5d5a-4055-a378-a8670afdd727" />
         <img width="250" alt="image" src="https://github.com/user-attachments/assets/cfaea8dd-7143-46e8-a91a-9ed701c3ff9f" />
       </ul>
-   <li>Create a Linux (Ubuntu) VM</li>
+   <li>Setup Client-1 Azure/li>
      <ul>
-      <li>While creating the VM (Linux-VM), select the previously created Resource Group (RS-NSG)</li>
+      <li>Create the Client VM (Windows 10 Pro) named "Client-1"</li>
       <img width="506" alt="image" src="https://github.com/user-attachments/assets/22d016db-ce67-45a9-bdde-508c11acccf5" />
   <li>For Image, choose Ubuntu Server 22.04 LTS - x64 Gen2 or 24. For Size, choose at least 2vcpus or DS2sv</li>
   <img width="497" alt="image" src="https://github.com/user-attachments/assets/ab72af90-922f-4420-8e1a-1cb79660230a" />
