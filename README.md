@@ -33,13 +33,32 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
   <ol>
     <li>Setup Domain Controller in Azure</li>
       <ul>
-        <li>Create a Resource Group</li>
+        <li>Create a Resource Group named "Active-Directory-Lab"</li>
         <img width="485" alt="image" src="https://github.com/user-attachments/assets/78f1eedd-6059-42a3-8ed1-f49022093ec8" />
-        <li>Create a Virtual Network and Subnet</li>
+        <li>Create a Virtual Network and Subnet named "Active-Directory-VNet"</li>
+        <li>While creating the Virtual Network and Subnet, select the previously created Resource Group </li>
         <img width="488" alt="image" src="https://github.com/user-attachments/assets/8b395571-b06d-4b19-afcf-f931e0ac78f0" />
         <img width="357" alt="image" src="https://github.com/user-attachments/assets/685ba339-b9b4-4889-8d46-99cc260d668e" />
         <li>Create the Domain Controller VM (Windows Server 2022) named "DC-1"</li>
+        <li>While creating the Domain Controller, select the previously created Resource Group</li>
+        <img width="523" alt="image" src="https://github.com/user-attachments/assets/72834571-4104-4687-bbe4-049bf9c1d572" />
+        <img width="498" alt="image" src="https://github.com/user-attachments/assets/5de49d39-9154-456f-a750-887840bb0161" />
+        <img width="512" alt="image" src="https://github.com/user-attachments/assets/efbbc57b-35da-4ed9-9878-02084baf2faf" />
       </ul>
+     <li>Create a Windows 10 Virtual Machine (VM)</li>
+    <ul>
+  
+    <img width="494" alt="image" src="https://github.com/user-attachments/assets/8d69c74c-be70-4235-83b4-b02ce794eebb" />
+  <li>For Image, choose Windows 10. For Size, choose at least 2vcpus or DS2sv</li>
+  <img width="520" alt="Screenshot 2025-04-04 070032" src="https://github.com/user-attachments/assets/d6a1c2c9-5b2b-4e99-8263-52eadeb0df16" />
+  <li>Enter a username and password (username: labuser  password: Cyberlab123!)</li>
+  <img width="518" alt="Screenshot 2025-04-04 070314" src="https://github.com/user-attachments/assets/15eb8459-e5fc-4321-9f4a-6bcdc01eb775" />
+  <li>Do not change any other settings</li>
+  <li>While creating the VM, allow it to create a new Virtual Network (Vnet) and Subnet, by clicking "Review and Create"</li>
+ <img width="478" alt="image" src="https://github.com/user-attachments/assets/82519c5e-bb82-4a8d-9c38-6afcdc3400eb" />
+  <img width="320" alt="image" src="https://github.com/user-attachments/assets/10add3ab-c9f7-4c21-8961-48de72ea46da" />
+  <li>Click "Create"</li>
+</ul>
   <li>Create a Linux (Ubuntu) VM</li>
     <ul>
   <li>While creating the VM, select the previously created Resource Group and Vnet</li>
