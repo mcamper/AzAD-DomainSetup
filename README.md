@@ -59,6 +59,15 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
       <ul>
         <li>Copy DC-1's Public IP address</li>
         <img width="795" alt="image" src="https://github.com/user-attachments/assets/bef04a23-bdca-40de-a938-71497afc6d39" />
+        <li>Connect remotely. Paste DC-1's Public IP address </li>
+        <img width="303" alt="image" src="https://github.com/user-attachments/assets/64a582cb-3928-4da2-9073-80d883162be9" />
+        <li>Enter a username and password (username: labuser  password: Cyberlab123!)</li>
+        <img width="281" alt="image" src="https://github.com/user-attachments/assets/8e1b8241-b1f7-4030-b3d4-169267e0972c" />
+        <img width="260" alt="image" src="https://github.com/user-attachments/assets/fd998614-9aec-4b8a-ad16-50fbe2f5d6c5" />
+        <li>Confirm you are inside the Domain Controller. The "Server Manager Dashboard" should appear</li>
+        <img width="651" alt="image" src="https://github.com/user-attachments/assets/4563c3b7-0499-42c3-93dc-e98334991ebf" />
+        <li>Confirm you are inside the Domain Controller. The "Server Manager Dashboard" should appear</li>
+        <img width="651" alt="image" src="https://github.com/user-attachments/assets/4563c3b7-0499-42c3-93dc-e98334991ebf" />
       </ul>
    <li>Create a Linux (Ubuntu) VM</li>
      <ul>
