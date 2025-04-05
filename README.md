@@ -70,21 +70,20 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
         <img width="258" alt="image" src="https://github.com/user-attachments/assets/0aeff83b-f53d-46b3-a66d-3f5d5c7c104b" />
         <li>Under "Public Profile is Active", click "Windows Defender Firewall Properties" (to disable it)</li>
         <img width="465" alt="image" src="https://github.com/user-attachments/assets/32010b4e-9a68-4f79-8e95-7755090d13e9" />
-        <li>Turn Firewall state: "Off" for Domain Profile, Private Profile, Public Profile<, "Apply", "OK"/li>
+        <li>Turn Firewall state: "Off" for Domain Profile, Private Profile, Public Profile, "Apply", "OK"</li>
         <img width="253" alt="image" src="https://github.com/user-attachments/assets/eda87b43-8661-44ba-82f6-48f94dbd4fcf" />
         <img width="246" alt="image" src="https://github.com/user-attachments/assets/928620ce-e270-492e-aaf3-0f097bbfd126" />
         <img width="248" alt="image" src="https://github.com/user-attachments/assets/cf441824-5d5a-4055-a378-a8670afdd727" />
         <img width="250" alt="image" src="https://github.com/user-attachments/assets/cfaea8dd-7143-46e8-a91a-9ed701c3ff9f" />
       </ul>
-   <li>Setup Client-1 Azure/li>
+   <li>Setup Client-1 Azure</li>
      <ul>
       <li>Create the Client VM (Windows 10 Pro) named "Client-1"</li>
-      <img width="506" alt="image" src="https://github.com/user-attachments/assets/22d016db-ce67-45a9-bdde-508c11acccf5" />
-  <li>For Image, choose Ubuntu Server 22.04 LTS - x64 Gen2 or 24. For Size, choose at least 2vcpus or DS2sv</li>
-  <img width="497" alt="image" src="https://github.com/user-attachments/assets/ab72af90-922f-4420-8e1a-1cb79660230a" />
-  <li>For Authentication type, choose Password.  Enter a username and password (username: labuser  password: Cyberlab123!) </li>
-  <img width="542" alt="image" src="https://github.com/user-attachments/assets/691404a2-7720-461e-92c6-1dc854d93fc2" />
-  <img width="518" alt="image" src="https://github.com/user-attachments/assets/ccb6fbd2-58e6-4810-9004-9cbb9bfab934" />
+      <img width="491" alt="image" src="https://github.com/user-attachments/assets/9db8b6b3-1d4c-4d24-b1a7-c196fe3efc82" />
+      <li>For Image, choose Windows 10 Pro, version 22H2 -x64 Gen2. For Size, choose at least 2vcpus or DS2sv</li>
+      <img width="485" alt="image" src="https://github.com/user-attachments/assets/5e870fab-8220-45e3-a714-cf2b435707ad" />
+      <li>For Authentication type, choose Password.  Enter a username and password (username: labuser  password: Cyberlab123!) </li>
+      <img width="494" alt="image" src="https://github.com/user-attachments/assets/f08c3f30-6f12-40ba-887b-b875450be679" />
   <li>Do not change any other settings</li>
   <li>Click Next: Disks.  Click: Next: Networking</li>
   <img width="298" alt="image" src="https://github.com/user-attachments/assets/f1262388-03c9-4aa7-8420-a93a15ff4b84" />
