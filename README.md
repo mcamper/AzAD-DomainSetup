@@ -66,8 +66,15 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
         <img width="260" alt="image" src="https://github.com/user-attachments/assets/fd998614-9aec-4b8a-ad16-50fbe2f5d6c5" />
         <li>Confirm you are inside the Domain Controller. The "Server Manager Dashboard" should appear</li>
         <img width="651" alt="image" src="https://github.com/user-attachments/assets/4563c3b7-0499-42c3-93dc-e98334991ebf" />
-        <li>Confirm you are inside the Domain Controller. The "Server Manager Dashboard" should appear</li>
-        <img width="651" alt="image" src="https://github.com/user-attachments/assets/4563c3b7-0499-42c3-93dc-e98334991ebf" />
+        <li>Right click the "Start" menu, then type: wf.msc for Windows Firewall (to disable it)</li>
+        <img width="245" alt="image" src="https://github.com/user-attachments/assets/4b3233e6-1301-4dbd-ba70-d70bfcfe232a" />
+        <li>Under "Public Profile is Active", click "Windows Defender Firewall Properties" (to disable it)</li>
+        <img width="465" alt="image" src="https://github.com/user-attachments/assets/32010b4e-9a68-4f79-8e95-7755090d13e9" />
+        <li>Turn Firewall state: "Off" for Domain Profile, Private Profile, Public Profile<, "Apply", "OK"/li>
+        <img width="253" alt="image" src="https://github.com/user-attachments/assets/eda87b43-8661-44ba-82f6-48f94dbd4fcf" />
+        <img width="246" alt="image" src="https://github.com/user-attachments/assets/928620ce-e270-492e-aaf3-0f097bbfd126" />
+        <img width="248" alt="image" src="https://github.com/user-attachments/assets/cf441824-5d5a-4055-a378-a8670afdd727" />
+        <img width="250" alt="image" src="https://github.com/user-attachments/assets/cfaea8dd-7143-46e8-a91a-9ed701c3ff9f" />
       </ul>
    <li>Create a Linux (Ubuntu) VM</li>
      <ul>
