@@ -94,7 +94,7 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
       <img width="278" alt="image" src="https://github.com/user-attachments/assets/f1ffa751-14b1-4542-bf76-aad3fa13c37d" />
       <li>Click "Create"</li>
     </ul>
-      <li>Observe your Virtual Network within Network Watcher</li>
+     
 </ol>
 
 </p>
@@ -102,7 +102,11 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
 </p>
 
 <br />
-
+<h2>Step 1: Preparing Active Directory Infrastructure in Azure</h2>
+<p>
+  <ol>
+     <li>Observe your Virtual Network within Network Watcher</li>
+  </ol>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
