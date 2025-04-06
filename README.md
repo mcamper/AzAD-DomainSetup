@@ -229,12 +229,9 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
           <img width="308" alt="image" src="https://github.com/user-attachments/assets/89681dc6-83f0-4176-830c-a80d0ed9aa6f" />
           <img width="283" alt="image" src="https://github.com/user-attachments/assets/4aad79a4-2951-42f7-b37a-515b21060e0d" />
           <img width="261" alt="image" src="https://github.com/user-attachments/assets/d23484aa-1e09-4374-94cf-f926e77f5e76" />
-
-
-
-
-
     <li>Open PowerShell ISE as an "Administrator"</li>
+            <img width="322" alt="image" src="https://github.com/user-attachments/assets/64b8252e-f2dc-4e57-a294-18b0937ccfb1" />
+
     <li>Create a new File and paste the contents of the script into it</li>
       <ul><li>Run the script and observe the accounts being created</li></ul>
     <li>When finished, open ADUC and observe the accounts in the appropriate OU (_EMPLOYEES)</li>
