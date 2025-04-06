@@ -19,7 +19,7 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
 - Windows Server 2022
 - Windows 10 (21H2)
 
-<h2>High-Level Configuration, Deployment and Management Steps</h2>
+<h2>High-Level Deployment, Configuration and Management Steps</h2>
 
 - Step 1: Preparing Active Directory Infrastructure in Azure
 - Step 2: Deploying Active Directory and Configuration
@@ -199,14 +199,13 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
       </ul>
   </ol>
 <p>
-<h2>Step 3: Setup Remote Desktop for non-administrative users</h2>
+<h2>Step 3: Setup Remote Desktop for Non-Administrative Users</h2>
 <p>
   <ol>
      <li>Setup Remote Desktop for non-addministrative users on Client-1</li>
-        <ul><li>Log into Client-1 as "mydomain.com\jane_admin". Password: Cyberlab123!</li>
-          <li>Open system properties. Click "Remote Desktop"</li>
-          <li>Allow "domain users" access to remote desktop</li>
-        </ul>
+     <li>Log into Client-1 as "mydomain.com\jane_admin". Password: Cyberlab123!</li>
+      <li>Open system properties. Click "Remote Desktop"</li>
+      <li>Allow "domain users" access to remote desktop</li>
     <li>Create a bunch of additional users and attempt to log into Client-1 with one of the users</li>
   </ol>
 <p>
