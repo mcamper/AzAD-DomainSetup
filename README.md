@@ -108,8 +108,7 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
       <li>Attempt to ping DC-1's Private IP address</li>
       <img width="277" alt="image" src="https://github.com/user-attachments/assets/492f14ec-281a-49bc-9100-3240a6f88e92" />
       <li>In Powershell, run ipconfig /all. The output for the DNS settings should show DC-1's Private IP address</li>
-      <img width="406" alt="image" src="https://github.com/user-attachments/assets/22fe1990-30c7-4ad3-ab5b-4c51f034fda1" />
-      <img width="456" alt="image" src="https://github.com/user-attachments/assets/5c3ba77f-178a-4f10-9e66-dc227aaf101b" />
+      <img width="490" alt="image" src="https://github.com/user-attachments/assets/04e76980-5bd7-4014-a6b2-f760a7d8dffc" />
     </ul>
      
 </ol>
@@ -168,6 +167,29 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
          <img width="254" alt="image" src="https://github.com/user-attachments/assets/f856c397-8748-4f57-8978-4f7bb3f419ae" />
          <img width="287" alt="image" src="https://github.com/user-attachments/assets/d1c6f268-2ccd-463a-a126-23968869d044" />
          <img width="287" alt="image" src="https://github.com/user-attachments/assets/fc01ea65-0ac8-4717-829d-a3101a39e7f8" />
+         <img width="257" alt="image" src="https://github.com/user-attachments/assets/c63aab57-5c53-486e-ab49-8f207359e0ac" />
+         <img width="254" alt="image" src="https://github.com/user-attachments/assets/3e5c19bc-21ec-418c-9711-ff6bb248e14c" />
+         <img width="259" alt="image" src="https://github.com/user-attachments/assets/24556d60-fd95-456e-8e84-835990ea6eb9" />
+         <img width="254" alt="image" src="https://github.com/user-attachments/assets/ac75dea5-de5a-4879-81a2-babd863282b0" />
+         <img width="287" alt="image" src="https://github.com/user-attachments/assets/0a4bf9b4-5060-44c7-9308-dc1ab72f041a" />
+         <img width="479" alt="image" src="https://github.com/user-attachments/assets/8569a29f-1b57-4f7e-957a-ce812c3e4ccb" />
+         <img width="470" alt="image" src="https://github.com/user-attachments/assets/e590a037-0c11-433d-af13-114fa3d6cf45" />
+         <img width="271" alt="image" src="https://github.com/user-attachments/assets/7b17afc1-83de-4bf1-9a97-7950be2a5261" />
+         <img width="215" alt="image" src="https://github.com/user-attachments/assets/6605d24f-3a95-47e3-8594-9870a11db0a7" />
+         <img width="215" alt="image" src="https://github.com/user-attachments/assets/f0c6490e-c70c-4849-85ec-25b8ceaf93bf" />
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
