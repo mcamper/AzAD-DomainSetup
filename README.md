@@ -231,9 +231,15 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
           <img width="261" alt="image" src="https://github.com/user-attachments/assets/d23484aa-1e09-4374-94cf-f926e77f5e76" />
     <li>Open PowerShell ISE as an "Administrator"</li>
             <img width="322" alt="image" src="https://github.com/user-attachments/assets/64b8252e-f2dc-4e57-a294-18b0937ccfb1" />
+            <img width="290" alt="image" src="https://github.com/user-attachments/assets/5a4a37ef-24a3-4d70-9224-92b0d32fee09" />
+    <li>Create a new file and paste the contents of the script (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1) into it</li>
+            <ul><li>Copy raw file inside file. Save on desktop as "create-users"</li></ul>
+            <img width="248" alt="image" src="https://github.com/user-attachments/assets/c355349d-8c0b-44f1-aedc-3a576eb6f841" />
+            <img width="615" alt="image" src="https://github.com/user-attachments/assets/ee0db314-2836-4e98-8e7a-30a7614094bd" />
+            <img width="481" alt="image" src="https://github.com/user-attachments/assets/11c37955-6c4b-4087-b38e-e037697ed6fd" />         
+            <ul><li>Run the script and observe the accounts being created</li></ul>
+            <img width="593" alt="image" src="https://github.com/user-attachments/assets/229c3bda-4695-441d-8252-580dbed493d0" />
 
-    <li>Create a new File and paste the contents of the script into it</li>
-      <ul><li>Run the script and observe the accounts being created</li></ul>
     <li>When finished, open ADUC and observe the accounts in the appropriate OU (_EMPLOYEES)</li>
       <ul><li>Attempt to log into Client-1 with oneof the accounts (take note of the password in the script)</li></ul>
     <li>Observing Logs</li>
