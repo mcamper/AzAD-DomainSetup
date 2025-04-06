@@ -210,8 +210,18 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
     <li>Open system properties. Click "Remote Desktop"</li>
        <ul><li>Right click Menu -> Systems. Click "Remote Desktop"</li></ul>
          <img width="536" alt="image" src="https://github.com/user-attachments/assets/d898d82c-1159-4d5b-b9fe-14eea54d75c6" />
-    <li>Create a bunch of additional users and attempt to log into Client-1 with one of the users</li>
-      <ul><li>Allow "domain users" access to remote desktop</li></ul>
+    <li>Allow "domain users" access to remote desktop</li>
+      <ul><li>Under "User Accounts", click "Select users that can remotely access this PC"</li></ul>
+        <img width="541" alt="image" src="https://github.com/user-attachments/assets/ea1d93f3-8458-40f9-94f6-b5af7e8ee199" />
+        <img width="255" alt="image" src="https://github.com/user-attachments/assets/8d40cb3c-8ffb-41ed-b7ca-8f20e0202a6a" />
+        <img width="308" alt="image" src="https://github.com/user-attachments/assets/6f76032e-43bd-49dd-8f37-bc615fe24de0" />
+        <img width="302" alt="image" src="https://github.com/user-attachments/assets/e5f84d88-5fe0-4bb7-a36a-5b78a3959d96" />
+        <img width="250" alt="image" src="https://github.com/user-attachments/assets/c96aa2d4-df68-42ae-baff-34df7a60778a" />
+
+
+
+
+
       <ul><li>Allow "domain users" access to remote desktop</li></ul>
   </ol>
 <p>
