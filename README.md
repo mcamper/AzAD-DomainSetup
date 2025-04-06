@@ -174,6 +174,7 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
         <u><li>Log out/close the connection to DC-1 and log back in as "mydomain.com\jane_admin". Use as you admin account from now on</li></u>
          <img width="259" alt="image" src="https://github.com/user-attachments/assets/24556d60-fd95-456e-8e84-835990ea6eb9" />
          <img width="254" alt="image" src="https://github.com/user-attachments/assets/ac75dea5-de5a-4879-81a2-babd863282b0" />
+          <ul><li>Password: Cyberlab123!</li></ul>
          <img width="287" alt="image" src="https://github.com/user-attachments/assets/0a4bf9b4-5060-44c7-9308-dc1ab72f041a" />
          <img width="479" alt="image" src="https://github.com/user-attachments/assets/8569a29f-1b57-4f7e-957a-ce812c3e4ccb" />
          <img width="470" alt="image" src="https://github.com/user-attachments/assets/e590a037-0c11-433d-af13-114fa3d6cf45" />
