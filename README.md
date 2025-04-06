@@ -152,6 +152,22 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
       <img width="406" alt="image" src="https://github.com/user-attachments/assets/22fe1990-30c7-4ad3-ab5b-4c51f034fda1" />
       <img width="456" alt="image" src="https://github.com/user-attachments/assets/5c3ba77f-178a-4f10-9e66-dc227aaf101b" />
     </ul>
+     <li>Install Active Directory Domain Services</li>
+       <ul>
+          <li>Remote Desktop into DC-1 using the Public IP Address</li>
+          <li>Install Active Directory Domain Services</li>
+          <img width="713" alt="image" src="https://github.com/user-attachments/assets/71aee3fc-cdda-48d5-9641-e0d2ea5e4a03" /> 
+          <img width="488" alt="image" src="https://github.com/user-attachments/assets/5a7b7ec0-6b7b-483d-80b2-9df7e00900b3" />
+          <img width="494" alt="image" src="https://github.com/user-attachments/assets/554dd7db-689d-409d-90ed-6ac5f95c91f5" />
+          <img width="493" alt="image" src="https://github.com/user-attachments/assets/8646a212-c180-474a-b3d8-1956e5f15cad" />
+          <img width="497" alt="image" src="https://github.com/user-attachments/assets/c9841577-59b4-455f-8e98-75e8f2e1b94b" />
+          <img width="262" alt="image" src="https://github.com/user-attachments/assets/753fc772-f939-4d17-9b7a-241e15f5acac" />
+          <img width="494" alt="image" src="https://github.com/user-attachments/assets/420cd626-1840-4833-93d5-9bf26085d6f1" />
+          <img width="491" alt="image" src="https://github.com/user-attachments/assets/80356d31-1e35-4a76-85ff-40fd699ee09a" />
+          <img width="490" alt="image" src="https://github.com/user-attachments/assets/f47506d1-8468-4591-9d15-c93d1ba2c44c" />
+          <img width="592" alt="image" src="https://github.com/user-attachments/assets/cd2ecd22-b807-4bb4-bdd7-662b260239fc" />
+          <img width="494" alt="image" src="https://github.com/user-attachments/assets/d6a6b4ac-b622-4ffb-b8e1-7904477da4e9" />
+      </ul>
   </ol>
 <p>
 <h2>Step 3: Preparing Active Directory Infrastructure in Azure</h2>
