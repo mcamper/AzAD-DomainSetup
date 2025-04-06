@@ -256,13 +256,19 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
 <h2>Step 5: Configuring Group Policy</h2>
 <p>
   <ol>
-     <li>Open the Group Policy Management Console (GPMC)</li>
-    <li>Create or Edit a Group Policy Object (GPO)</li>
-    <li>Navigate to the Account Lockout Policy Settings</li>
-    <li>Configure Account Lockout Policy Settings</li>
-    <li>Link the GPO to an Organizational Unit (OU)</li>
-    <li>Update Group Policy</li>
-    <li>Verify the Policy</li>
+      <li>Inside DC-1, open the Group Policy Management Console (GPMC)</li>
+              <img width="261" alt="image" src="https://github.com/user-attachments/assets/6cc5a1da-046d-4fb8-8216-bb090bd1a876" />
+              <img width="473" alt="image" src="https://github.com/user-attachments/assets/1711a39b-3125-4316-a161-eafe4eba82e0" />
+      <li>Edit a Group Policy Object (GPO). </li>
+              <img width="485" alt="image" src="https://github.com/user-attachments/assets/062c8da1-c43a-4ab7-9360-63e91c2e3b83" />
+              <img width="307" alt="image" src="https://github.com/user-attachments/assets/05eec649-8043-424f-b599-c99c469522e5" />
+
+
+      <li>Navigate to the Account Lockout Policy Settings</li>
+      <li>Configure Account Lockout Policy Settings</li>
+      <li>Link the GPO to an Organizational Unit (OU)</li>
+      <li>Update Group Policy</li>
+      <li>Verify the Policy</li>
   </ol>
 <p>
 
@@ -270,7 +276,7 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
 <h2>Step 5: Managing Accounts within Azure-hosted AD</h2>
 <p>
   <ol>
-     <li>Open the Group Policy Management Console (GPMC)</li>
+    <li>Open the Group Policy Management Console (GPMC)</li>
     <li>Create or Edit a Group Policy Object (GPO)</li>
     <li>Navigate to the Account Lockout Policy Settings</li>
     <li>Configure Account Lockout Policy Settings</li>
