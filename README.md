@@ -146,14 +146,41 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
        <img width="481" alt="image" src="https://github.com/user-attachments/assets/f2ce3f84-eaf6-412e-b037-c28ed08714ce" />
        <img width="475" alt="image" src="https://github.com/user-attachments/assets/39aca6ef-b7f7-4f17-b6a2-4f3bf9a7fb87" />
       <li>Computer will restart. After restarting, log back into DC-1 as user: mydomain.com\labuser</li>
-      <li>Attempt to ping DC-1's Private IP address</li>
-      <img width="277" alt="image" src="https://github.com/user-attachments/assets/492f14ec-281a-49bc-9100-3240a6f88e92" />
-      <li>In Powershell, run ipconfig /all. The output for the DNS settings should show DC-1's Private IP address</li>
-      <img width="406" alt="image" src="https://github.com/user-attachments/assets/22fe1990-30c7-4ad3-ab5b-4c51f034fda1" />
-      <img width="456" alt="image" src="https://github.com/user-attachments/assets/5c3ba77f-178a-4f10-9e66-dc227aaf101b" />
+       <img width="259" alt="image" src="https://github.com/user-attachments/assets/c161bae1-e0c8-4fbc-8c79-ac235b4099d6" />
+       <img width="254" alt="image" src="https://github.com/user-attachments/assets/05a93807-49fe-4902-a9cd-87a15e93ca75" />
+       <img width="281" alt="image" src="https://github.com/user-attachments/assets/da9a879e-685d-4bdc-a11b-d2c50ade3d2e" />
     </ul>
-     <li>Install Active Directory Domain Services</li>
+     <li>Create a Domain Admin user within the domain</li>
        <ul>
+         <img width="258" alt="image" src="https://github.com/user-attachments/assets/2649af3f-eea7-4685-8c46-bf5abe9a3373" />
+         <img width="469" alt="image" src="https://github.com/user-attachments/assets/593aca2f-caf1-4506-bca5-aea6bc2a1d20" />
+         <img width="457" alt="image" src="https://github.com/user-attachments/assets/dfacba25-56ed-47e1-b90b-0a226fdcbb1d" />
+         <img width="274" alt="image" src="https://github.com/user-attachments/assets/00ea312e-d5a5-4187-bbd5-5e2f77e3b44c" />
+         <img width="154" alt="image" src="https://github.com/user-attachments/assets/b74d3558-e34c-40aa-873c-25764d5d1d91" />
+         <img width="274" alt="image" src="https://github.com/user-attachments/assets/e90a9b1b-7ad7-4ece-a6e3-22f6f8dc6664" />
+         <img width="379" alt="image" src="https://github.com/user-attachments/assets/8628060a-4423-42ed-ad37-1e01db2ab638" />
+         <img width="275" alt="image" src="https://github.com/user-attachments/assets/e5c3b203-6810-4e97-8b1b-62854968d105" />
+         <img width="278" alt="image" src="https://github.com/user-attachments/assets/c644fbc4-f295-482c-8443-c9d6a676cd41" />
+         <img width="272" alt="image" src="https://github.com/user-attachments/assets/13c0ae35-c149-45b0-a9a3-a2cbac6b4804" />
+         <img width="471" alt="image" src="https://github.com/user-attachments/assets/a1185341-d434-4d4c-8656-857620d7be7a" />
+         <img width="383" alt="image" src="https://github.com/user-attachments/assets/b7a9d721-eccd-41e3-862f-1e0b13e2ebb5" />
+         <img width="256" alt="image" src="https://github.com/user-attachments/assets/1de7c116-0366-4cc0-92f4-ad44beef2dc6" />
+         <img width="254" alt="image" src="https://github.com/user-attachments/assets/f856c397-8748-4f57-8978-4f7bb3f419ae" />
+         <img width="287" alt="image" src="https://github.com/user-attachments/assets/d1c6f268-2ccd-463a-a126-23968869d044" />
+         <img width="287" alt="image" src="https://github.com/user-attachments/assets/fc01ea65-0ac8-4717-829d-a3101a39e7f8" />
+
+
+
+
+
+
+
+
+
+
+
+
+
           <li>Remote Desktop into DC-1 using the Public IP Address</li>
           <li>Install Active Directory Domain Services</li>
           <img width="713" alt="image" src="https://github.com/user-attachments/assets/71aee3fc-cdda-48d5-9641-e0d2ea5e4a03" /> 
