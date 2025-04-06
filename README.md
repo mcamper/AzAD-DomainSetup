@@ -163,7 +163,7 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
          <img width="272" alt="image" src="https://github.com/user-attachments/assets/13c0ae35-c149-45b0-a9a3-a2cbac6b4804" />
          <img width="471" alt="image" src="https://github.com/user-attachments/assets/a1185341-d434-4d4c-8656-857620d7be7a" />
        </ul>
-        <u><li>Create Directories, then Domain Admin user within the domain. Notice "labuser" is listed inside "Users" directory</li>
+        <u><li>Add jane_admin to the "Domain Admins" Security Group</li>
          <img width="383" alt="image" src="https://github.com/user-attachments/assets/b7a9d721-eccd-41e3-862f-1e0b13e2ebb5" />
          <img width="256" alt="image" src="https://github.com/user-attachments/assets/1de7c116-0366-4cc0-92f4-ad44beef2dc6" />
          <img width="254" alt="image" src="https://github.com/user-attachments/assets/f856c397-8748-4f57-8978-4f7bb3f419ae" />
@@ -171,6 +171,7 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
          <img width="287" alt="image" src="https://github.com/user-attachments/assets/fc01ea65-0ac8-4717-829d-a3101a39e7f8" />
          <img width="257" alt="image" src="https://github.com/user-attachments/assets/c63aab57-5c53-486e-ab49-8f207359e0ac" />
          <img width="254" alt="image" src="https://github.com/user-attachments/assets/3e5c19bc-21ec-418c-9711-ff6bb248e14c" />
+        <u><li>Log out/close the connection to DC-1 and log back in as "mydomain.com\jane_admin". Use as you admin account from now on</li></u>
          <img width="259" alt="image" src="https://github.com/user-attachments/assets/24556d60-fd95-456e-8e84-835990ea6eb9" />
          <img width="254" alt="image" src="https://github.com/user-attachments/assets/ac75dea5-de5a-4879-81a2-babd863282b0" />
          <img width="287" alt="image" src="https://github.com/user-attachments/assets/0a4bf9b4-5060-44c7-9308-dc1ab72f041a" />
