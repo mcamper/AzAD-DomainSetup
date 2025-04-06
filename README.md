@@ -99,22 +99,17 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
        <img width="804" alt="image" src="https://github.com/user-attachments/assets/111a0a47-6ca6-44ab-8af1-ee51de0a0f99" />
        <img width="428" alt="image" src="https://github.com/user-attachments/assets/49922f4c-c697-4bf0-9146-b8bc291d3b4e" />
        <img width="377" alt="image" src="https://github.com/user-attachments/assets/85023d64-2967-4b66-ab38-c1cd954b92a7" />
-
-       <li>Create the Client VM (Windows 10 Pro) named "Client-1"</li>
-      <img width="491" alt="image" src="https://github.com/user-attachments/assets/9db8b6b3-1d4c-4d24-b1a7-c196fe3efc82" />
-      <li>For Image, choose Windows 10 Pro, version 22H2 -x64 Gen2. For Size, choose at least 2vcpus or DS2sv</li>
-      <img width="485" alt="image" src="https://github.com/user-attachments/assets/5e870fab-8220-45e3-a714-cf2b435707ad" />
-      <li>For Authentication type, choose Password.  Enter a username and password (username: labuser  password: Cyberlab123!) </li>
-      <img width="494" alt="image" src="https://github.com/user-attachments/assets/f08c3f30-6f12-40ba-887b-b875450be679" />
-      <li>Do not change any other settings</li>
-      <li>Click Next: Disks.  Click: Next: Networking</li>
-       <img width="477" alt="image" src="https://github.com/user-attachments/assets/10bb0b7a-f00e-4550-bf2f-de7c94df3a55" />
-      <img width="298" alt="image" src="https://github.com/user-attachments/assets/f1262388-03c9-4aa7-8420-a93a15ff4b84" />
-      <li>Inside Networking, confirm correct Virtual Network created in DC-1</li>
-      <img width="478" alt="image" src="https://github.com/user-attachments/assets/c4cf293b-89fa-43d7-b58c-a764259f523d" />
-      <li>Click "Review and Create"</li>
-      <img width="278" alt="image" src="https://github.com/user-attachments/assets/f1ffa751-14b1-4542-bf76-aad3fa13c37d" />
-      <li>Click "Create"</li>
+       <li>From the Azure Portal, restart Client-1</li>
+       <img width="803" alt="image" src="https://github.com/user-attachments/assets/a3479868-dc2a-471f-9bf4-e21374a8c879" />
+      </ul>
+       <li>Login to Client-1</li>
+     <ul>
+      <li>Connect remotely. Paste Client-1's Public IP address. Use same username and password previously used. </li>
+      <li>Attempt to ping DC-1's Private IP address</li>
+      <img width="277" alt="image" src="https://github.com/user-attachments/assets/492f14ec-281a-49bc-9100-3240a6f88e92" />
+      <li>In Powershell, run ipconfig /all. The output for the DNS settings should show DC-1's Private IP address</li>
+      <img width="406" alt="image" src="https://github.com/user-attachments/assets/22fe1990-30c7-4ad3-ab5b-4c51f034fda1" />
+      <img width="456" alt="image" src="https://github.com/user-attachments/assets/5c3ba77f-178a-4f10-9e66-dc227aaf101b" />
     </ul>
      
 </ol>
@@ -122,7 +117,43 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
 <h2>Step 2: Deploying Active Directory</h2>
 <p>
   <ol>
-     <li>Observe your Virtual Network within Network Watcher</li>
+     <li>Install Active Directory Domain Services</li>
+       <ul>
+          <li>Remote Desktop into DC-1 using the Public IP Address</li>
+          <li>Install Active Directory Domain Services</li>
+          <img width="713" alt="image" src="https://github.com/user-attachments/assets/71aee3fc-cdda-48d5-9641-e0d2ea5e4a03" /> 
+          <img width="488" alt="image" src="https://github.com/user-attachments/assets/5a7b7ec0-6b7b-483d-80b2-9df7e00900b3" />
+          <img width="494" alt="image" src="https://github.com/user-attachments/assets/554dd7db-689d-409d-90ed-6ac5f95c91f5" />
+          <img width="493" alt="image" src="https://github.com/user-attachments/assets/8646a212-c180-474a-b3d8-1956e5f15cad" />
+          <img width="497" alt="image" src="https://github.com/user-attachments/assets/c9841577-59b4-455f-8e98-75e8f2e1b94b" />
+          <img width="262" alt="image" src="https://github.com/user-attachments/assets/753fc772-f939-4d17-9b7a-241e15f5acac" />
+          <img width="494" alt="image" src="https://github.com/user-attachments/assets/420cd626-1840-4833-93d5-9bf26085d6f1" />
+          <img width="491" alt="image" src="https://github.com/user-attachments/assets/80356d31-1e35-4a76-85ff-40fd699ee09a" />
+          <img width="490" alt="image" src="https://github.com/user-attachments/assets/f47506d1-8468-4591-9d15-c93d1ba2c44c" />
+          <img width="592" alt="image" src="https://github.com/user-attachments/assets/cd2ecd22-b807-4bb4-bdd7-662b260239fc" />
+          <img width="494" alt="image" src="https://github.com/user-attachments/assets/d6a6b4ac-b622-4ffb-b8e1-7904477da4e9" />
+      </ul>
+       <li>Promote as a DC: Setup a new forest as mydomain.com (can be anything)</li>
+     <ul>
+       <img width="956" alt="image" src="https://github.com/user-attachments/assets/8c0870dd-5ac7-434e-8f8a-6eec6ad1de36" />
+       <img width="216" alt="image" src="https://github.com/user-attachments/assets/d798ca04-adb3-405f-b521-cd5d77ff1379" />
+       <img width="478" alt="image" src="https://github.com/user-attachments/assets/5b4acf26-f363-433b-8440-955993c32df9" />
+       <img width="474" alt="image" src="https://github.com/user-attachments/assets/22a196fa-629c-4da6-9e4f-8e1c1c5ef00f" />
+       <img width="478" alt="image" src="https://github.com/user-attachments/assets/fab1ae36-628e-4160-926b-9ae0e0d72eb7" />
+       <img width="478" alt="image" src="https://github.com/user-attachments/assets/b5937559-6407-4520-805c-cd6d85b333e4" />
+
+
+
+
+
+
+      <li>Connect remotely. Paste Client-1's Public IP address. Use same username and password previously used. </li>
+      <li>Attempt to ping DC-1's Private IP address</li>
+      <img width="277" alt="image" src="https://github.com/user-attachments/assets/492f14ec-281a-49bc-9100-3240a6f88e92" />
+      <li>In Powershell, run ipconfig /all. The output for the DNS settings should show DC-1's Private IP address</li>
+      <img width="406" alt="image" src="https://github.com/user-attachments/assets/22fe1990-30c7-4ad3-ab5b-4c51f034fda1" />
+      <img width="456" alt="image" src="https://github.com/user-attachments/assets/5c3ba77f-178a-4f10-9e66-dc227aaf101b" />
+    </ul>
   </ol>
 <p>
 <h2>Step 3: Preparing Active Directory Infrastructure in Azure</h2>
