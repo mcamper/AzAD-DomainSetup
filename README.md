@@ -141,13 +141,11 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
        <img width="474" alt="image" src="https://github.com/user-attachments/assets/22a196fa-629c-4da6-9e4f-8e1c1c5ef00f" />
        <img width="478" alt="image" src="https://github.com/user-attachments/assets/fab1ae36-628e-4160-926b-9ae0e0d72eb7" />
        <img width="478" alt="image" src="https://github.com/user-attachments/assets/b5937559-6407-4520-805c-cd6d85b333e4" />
-
-
-
-
-
-
-      <li>Connect remotely. Paste Client-1's Public IP address. Use same username and password previously used. </li>
+       <img width="481" alt="image" src="https://github.com/user-attachments/assets/1a9ea0fd-b04e-4734-a44b-312b8fdca18d" />
+       <img width="476" alt="image" src="https://github.com/user-attachments/assets/0d82e5b1-98bd-498a-9f91-ee210e9951bf" />
+       <img width="481" alt="image" src="https://github.com/user-attachments/assets/f2ce3f84-eaf6-412e-b037-c28ed08714ce" />
+       <img width="475" alt="image" src="https://github.com/user-attachments/assets/39aca6ef-b7f7-4f17-b6a2-4f3bf9a7fb87" />
+      <li>Computer will restart. After restarting, log back into DC-1 as user: mydomain.com\labuser</li>
       <li>Attempt to ping DC-1's Private IP address</li>
       <img width="277" alt="image" src="https://github.com/user-attachments/assets/492f14ec-281a-49bc-9100-3240a6f88e92" />
       <li>In Powershell, run ipconfig /all. The output for the DNS settings should show DC-1's Private IP address</li>
