@@ -206,6 +206,7 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
        <ul><li>Log into Client-1 as "mydomain.com\jane_admin". Password: Cyberlab123!</li></ul>
         <img width="259" alt="image" src="https://github.com/user-attachments/assets/68169e77-ee1b-402d-8835-e76cf7044b94" />
         <img width="251" alt="image" src="https://github.com/user-attachments/assets/553a1385-c005-423d-a284-31dd648a1a54" />
+        <img width="261" alt="image" src="https://github.com/user-attachments/assets/d7722462-d3f7-4f02-b748-326a1e5b8d3b" />
         <img width="281" alt="image" src="https://github.com/user-attachments/assets/52f7b010-2818-41a0-88ca-1738c043cd9e" />
     <li>Open system properties. Click "Remote Desktop"</li>
        <ul><li>Right click Menu -> Systems. Click "Remote Desktop"</li></ul>
@@ -214,21 +215,26 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
       <ul><li>Under "User Accounts", click "Select users that can remotely access this PC"</li></ul>
         <img width="541" alt="image" src="https://github.com/user-attachments/assets/ea1d93f3-8458-40f9-94f6-b5af7e8ee199" />
         <img width="255" alt="image" src="https://github.com/user-attachments/assets/8d40cb3c-8ffb-41ed-b7ca-8f20e0202a6a" />
+        <img width="261" alt="image" src="https://github.com/user-attachments/assets/92d1249e-2031-4c71-a594-19333797f6fe" />
         <img width="308" alt="image" src="https://github.com/user-attachments/assets/6f76032e-43bd-49dd-8f37-bc615fe24de0" />
         <img width="302" alt="image" src="https://github.com/user-attachments/assets/e5f84d88-5fe0-4bb7-a36a-5b78a3959d96" />
         <img width="250" alt="image" src="https://github.com/user-attachments/assets/c96aa2d4-df68-42ae-baff-34df7a60778a" />
-
-
-
-
-
-      <ul><li>Allow "domain users" access to remote desktop</li></ul>
+      <ul><li>All domain users by default should be able to log into this computer</li></ul>
   </ol>
 <p>
 <h2>Step 4: Creating Users with PowerShell</h2>
 <p>
   <ol>
-     <li>Log into DC-1 as jane_admin</li>
+    <li>Log into DC-1 as jane_admin</li>
+          <img width="305" alt="image" src="https://github.com/user-attachments/assets/1ebe73b4-04de-4187-8dc3-408da533e823" />
+          <img width="308" alt="image" src="https://github.com/user-attachments/assets/89681dc6-83f0-4176-830c-a80d0ed9aa6f" />
+          <img width="283" alt="image" src="https://github.com/user-attachments/assets/4aad79a4-2951-42f7-b37a-515b21060e0d" />
+          <img width="261" alt="image" src="https://github.com/user-attachments/assets/d23484aa-1e09-4374-94cf-f926e77f5e76" />
+
+
+
+
+
     <li>Open PowerShell ISE as an "Administrator"</li>
     <li>Create a new File and paste the contents of the script into it</li>
       <ul><li>Run the script and observe the accounts being created</li></ul>
