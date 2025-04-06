@@ -203,9 +203,9 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
 <p>
   <ol>
      <li>Setup Remote Desktop for non-addministrative users on Client-1</li>
-     <li>Log into Client-1 as "mydomain.com\jane_admin". Password: Cyberlab123!</li>
-      <li>Open system properties. Click "Remote Desktop"</li>
-      <li>Allow "domain users" access to remote desktop</li>
+       <ul><li>Log into Client-1 as "mydomain.com\jane_admin". Password: Cyberlab123!</li></ul>
+    <li>Open system properties. Click "Remote Desktop"</li>
+       <ul><li>Allow "domain users" access to remote desktop</li></ul>
     <li>Create a bunch of additional users and attempt to log into Client-1 with one of the users</li>
   </ol>
 <p>
