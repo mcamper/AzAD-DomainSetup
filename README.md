@@ -244,19 +244,16 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
             <img width="380" alt="image" src="https://github.com/user-attachments/assets/d9540036-185a-4e57-b89f-01a9e4810432" />
             <img width="474" alt="image" src="https://github.com/user-attachments/assets/b9b95535-f561-43e1-aae3-3213dbcfe7f9" />
     <li>Attempt to log into Client-1 with one of the accounts (take note of the password in the script)</li>
-            <ul><li>Close Client-1's connection. Then re-open with new user.</li></ul>
+            <ul><li>Close Client-1's connection. Then re-open with new user. Password: Password1</li></ul>
             <img width="255" alt="image" src="https://github.com/user-attachments/assets/c378283c-5401-42d7-a900-f45c34cf71c0" />
             <img width="251" alt="image" src="https://github.com/user-attachments/assets/a8022014-067e-400e-8f77-5468b380380b" />
             <img width="334" alt="image" src="https://github.com/user-attachments/assets/f13687d5-4755-4d1a-b24f-c7e2c4ae42f2" />
             <img width="295" alt="image" src="https://github.com/user-attachments/assets/a293f485-6b37-4e47-b0f7-d0ab6c271211" />
-
-
-
-
+            <img width="274" alt="image" src="https://github.com/user-attachments/assets/59f1b3d1-ecad-4b72-a83a-a538234a926d" />
     <li>Observing Logs</li>
   </ol>
 <p>
-<h2>Step 5: Managing Accounts within Azure-hosted AD</h2>
+<h2>Step 5: Configuring Group Policy</h2>
 <p>
   <ol>
      <li>Open the Group Policy Management Console (GPMC)</li>
@@ -268,8 +265,9 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
     <li>Verify the Policy</li>
   </ol>
 <p>
+
 <p>
-<h2>Step 5: Configuring Group Policy</h2>
+<h2>Step 5: Managing Accounts within Azure-hosted AD</h2>
 <p>
   <ol>
      <li>Open the Group Policy Management Console (GPMC)</li>
