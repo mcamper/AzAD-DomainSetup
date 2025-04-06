@@ -206,9 +206,13 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
        <ul><li>Log into Client-1 as "mydomain.com\jane_admin". Password: Cyberlab123!</li></ul>
         <img width="259" alt="image" src="https://github.com/user-attachments/assets/68169e77-ee1b-402d-8835-e76cf7044b94" />
         <img width="251" alt="image" src="https://github.com/user-attachments/assets/553a1385-c005-423d-a284-31dd648a1a54" />
+        <img width="281" alt="image" src="https://github.com/user-attachments/assets/52f7b010-2818-41a0-88ca-1738c043cd9e" />
     <li>Open system properties. Click "Remote Desktop"</li>
-       <ul><li>Allow "domain users" access to remote desktop</li></ul>
+       <ul><li>Right click Menu -> Systems. Click "Remote Desktop"</li></ul>
+         <img width="536" alt="image" src="https://github.com/user-attachments/assets/d898d82c-1159-4d5b-b9fe-14eea54d75c6" />
     <li>Create a bunch of additional users and attempt to log into Client-1 with one of the users</li>
+      <ul><li>Allow "domain users" access to remote desktop</li></ul>
+      <ul><li>Allow "domain users" access to remote desktop</li></ul>
   </ol>
 <p>
 <h2>Step 4: Creating Users with PowerShell</h2>
