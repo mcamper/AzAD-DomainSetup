@@ -265,6 +265,7 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
               <img width="490" alt="image" src="https://github.com/user-attachments/assets/aee19f47-58c7-458e-aa46-263c026db07d" />
       <li>Navigate to the Account Lockout Policy Settings</li>
               <ul><li>In the Group Policy Management Editor, expand the following: Computer Configuration>Policies>Window Settings><br>Security Settings>Account Policies>Account Lockout Policy</li></ul>
+              <img width="683" alt="image" src="https://github.com/user-attachments/assets/5aec4442-ca32-469f-b725-3f057546d371" />
       <li>Configure Account Lockout Policy Settings</li>
       <li>Link the GPO to an Organizational Unit (OU)</li>
       <li>Update Group Policy</li>
