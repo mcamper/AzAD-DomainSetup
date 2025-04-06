@@ -23,8 +23,9 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
 
 - Step 1: Preparing Active Directory Infrastructure in Azure
 - Step 2: Deploying Active Directory and Configuration
-- Step 3: Creating Users with PowerShell
-- Step 4: Enabling and Unlocking Accounts and Resetting Passwords
+- Step 3: Setup Remote Desktop for Non-Administrative Users
+- Step 4: Creating Users with PowerShell
+- Step 5: Enabling and Unlocking Accounts and Resetting Passwords
 - Step 5: Group Policy & Managing Accounts
 
 
@@ -198,10 +199,14 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
       </ul>
   </ol>
 <p>
-<h2>Step 3: Creating Users with Powershell</h2>
+<h2>Step 3: Setup Remote Desktop for non-administrative users</h2>
 <p>
   <ol>
      <li>Setup Remote Desktop for non-addministrative users on Client-1</li>
+        <ul><li>Log into Client-1 as "mydomain.com\jane_admin". Password: Cyberlab123!</li>
+          <li>Open system properties. Click "Remote Desktop"</li>
+          <li>Allow "domain users" access to remote desktop</li>
+        </ul>
     <li>Create a bunch of additional users and attempt to log into Client-1 with one of the users</li>
   </ol>
 <p>
