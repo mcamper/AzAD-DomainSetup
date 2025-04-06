@@ -212,8 +212,12 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
 <h2>Step 4: Creating Users with PowerShell</h2>
 <p>
   <ol>
-     <li>Dealing with Account Lockouts</li>
-    <li>Enabling and Disabling Accounts</li>
+     <li>Log into DC-1 as jane_admin</li>
+    <li>Open PowerShell ISE as an "Administrator"</li>
+    <li>Create a new File and paste the contents of the script into it</li>
+      <ul><li>Run the script and observe the accounts being created</li></ul>
+    <li>When finished, open ADUC and observe the accounts in the appropriate OU (_EMPLOYEES)</li>
+      <ul><li>Attempt to log into Client-1 with oneof the accounts (take note of the password in the script)</li></ul>
     <li>Observing Logs</li>
   </ol>
 <p>
