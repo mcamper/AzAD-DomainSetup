@@ -233,15 +233,26 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
             <img width="322" alt="image" src="https://github.com/user-attachments/assets/64b8252e-f2dc-4e57-a294-18b0937ccfb1" />
             <img width="290" alt="image" src="https://github.com/user-attachments/assets/5a4a37ef-24a3-4d70-9224-92b0d32fee09" />
     <li>Create a new file and paste the contents of the script (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1) into it</li>
-            <ul><li>Copy raw file inside file. Save on desktop as "create-users"</li></ul>
+            <ul><li>Copy raw file inside file. Save on desktop as "create-users". Note password: Password1</li></ul>
             <img width="248" alt="image" src="https://github.com/user-attachments/assets/c355349d-8c0b-44f1-aedc-3a576eb6f841" />
             <img width="615" alt="image" src="https://github.com/user-attachments/assets/ee0db314-2836-4e98-8e7a-30a7614094bd" />
             <img width="481" alt="image" src="https://github.com/user-attachments/assets/11c37955-6c4b-4087-b38e-e037697ed6fd" />         
             <ul><li>Run the script and observe the accounts being created</li></ul>
             <img width="593" alt="image" src="https://github.com/user-attachments/assets/229c3bda-4695-441d-8252-580dbed493d0" />
-
+            <img width="257" alt="image" src="https://github.com/user-attachments/assets/aa36fbd9-7d3b-464a-9b81-d8264328798e" />
     <li>When finished, open ADUC and observe the accounts in the appropriate OU (_EMPLOYEES)</li>
-      <ul><li>Attempt to log into Client-1 with oneof the accounts (take note of the password in the script)</li></ul>
+            <img width="380" alt="image" src="https://github.com/user-attachments/assets/d9540036-185a-4e57-b89f-01a9e4810432" />
+            <img width="474" alt="image" src="https://github.com/user-attachments/assets/b9b95535-f561-43e1-aae3-3213dbcfe7f9" />
+    <li>Attempt to log into Client-1 with one of the accounts (take note of the password in the script)</li>
+            <ul><li>Close Client-1's connection. Then re-open with new user.</li></ul>
+            <img width="255" alt="image" src="https://github.com/user-attachments/assets/c378283c-5401-42d7-a900-f45c34cf71c0" />
+            <img width="251" alt="image" src="https://github.com/user-attachments/assets/a8022014-067e-400e-8f77-5468b380380b" />
+            <img width="334" alt="image" src="https://github.com/user-attachments/assets/f13687d5-4755-4d1a-b24f-c7e2c4ae42f2" />
+            <img width="295" alt="image" src="https://github.com/user-attachments/assets/a293f485-6b37-4e47-b0f7-d0ab6c271211" />
+
+
+
+
     <li>Observing Logs</li>
   </ol>
 <p>
