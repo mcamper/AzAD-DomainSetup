@@ -185,38 +185,6 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
          <img width="275" alt="image" src="https://github.com/user-attachments/assets/a87863a0-4f93-4964-94fb-6e7010e13a92" />
          <img width="470" alt="image" src="https://github.com/user-attachments/assets/d811ca9e-6969-4fae-a62c-3d0c0d499bd5" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
           <li>Remote Desktop into DC-1 using the Public IP Address</li>
           <li>Install Active Directory Domain Services</li>
           <img width="713" alt="image" src="https://github.com/user-attachments/assets/71aee3fc-cdda-48d5-9641-e0d2ea5e4a03" /> 
