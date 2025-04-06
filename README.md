@@ -189,6 +189,9 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
          <img width="180" alt="image" src="https://github.com/user-attachments/assets/22357124-952e-4b0e-ab27-37001efdb55d" />
          <img width="225" alt="image" src="https://github.com/user-attachments/assets/ff51f1d7-838b-4cc5-8578-354e775c9e07" />
          <img width="227" alt="image" src="https://github.com/user-attachments/assets/d18ef630-bd42-48ac-986d-3161b7f28f90" />
+          <ul><li>Log into the Domain Controller and verify Client-1 shows up in ADUC</li>
+            <li>Create a new OU named "_CLIENTS" and drag Client-1 into there</li>
+          </ul>
          <img width="464" alt="image" src="https://github.com/user-attachments/assets/b26adcbb-cec1-4142-86c3-8ec6b34e0a75" />
          <img width="275" alt="image" src="https://github.com/user-attachments/assets/a87863a0-4f93-4964-94fb-6e7010e13a92" />
          <img width="470" alt="image" src="https://github.com/user-attachments/assets/d811ca9e-6969-4fae-a62c-3d0c0d499bd5" />
