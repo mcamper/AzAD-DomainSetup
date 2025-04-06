@@ -206,8 +206,8 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
        <ul><li>Log into Client-1 as "mydomain.com\jane_admin". Password: Cyberlab123!</li></ul>
         <img width="259" alt="image" src="https://github.com/user-attachments/assets/68169e77-ee1b-402d-8835-e76cf7044b94" />
         <img width="251" alt="image" src="https://github.com/user-attachments/assets/553a1385-c005-423d-a284-31dd648a1a54" />
-        <img width="261" alt="image" src="https://github.com/user-attachments/assets/d7722462-d3f7-4f02-b748-326a1e5b8d3b" />
         <img width="281" alt="image" src="https://github.com/user-attachments/assets/52f7b010-2818-41a0-88ca-1738c043cd9e" />
+        <img width="261" alt="image" src="https://github.com/user-attachments/assets/d7722462-d3f7-4f02-b748-326a1e5b8d3b" />
     <li>Open system properties. Click "Remote Desktop"</li>
        <ul><li>Right click Menu -> Systems. Click "Remote Desktop"</li></ul>
          <img width="536" alt="image" src="https://github.com/user-attachments/assets/d898d82c-1159-4d5b-b9fe-14eea54d75c6" />
@@ -215,7 +215,6 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
       <ul><li>Under "User Accounts", click "Select users that can remotely access this PC"</li></ul>
         <img width="541" alt="image" src="https://github.com/user-attachments/assets/ea1d93f3-8458-40f9-94f6-b5af7e8ee199" />
         <img width="255" alt="image" src="https://github.com/user-attachments/assets/8d40cb3c-8ffb-41ed-b7ca-8f20e0202a6a" />
-        <img width="261" alt="image" src="https://github.com/user-attachments/assets/92d1249e-2031-4c71-a594-19333797f6fe" />
         <img width="308" alt="image" src="https://github.com/user-attachments/assets/6f76032e-43bd-49dd-8f37-bc615fe24de0" />
         <img width="302" alt="image" src="https://github.com/user-attachments/assets/e5f84d88-5fe0-4bb7-a36a-5b78a3959d96" />
         <img width="250" alt="image" src="https://github.com/user-attachments/assets/c96aa2d4-df68-42ae-baff-34df7a60778a" />
