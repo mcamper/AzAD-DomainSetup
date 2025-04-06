@@ -22,7 +22,7 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
 <h2>High-Level Configuration, Deployment and Management Steps</h2>
 
 - Step 1: Preparing Active Directory Infrastructure in Azure
-- Step 2: Deploying Active Directory
+- Step 2: Deploying Active Directory and Configuration
 - Step 3: Creating Users with PowerShell
 - Step 4: Enabling and Unlocking Accounts and Resetting Passwords
 - Step 5: Group Policy & Managing Accounts
@@ -113,7 +113,7 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
      
 </ol>
 
-<h2>Step 2: Deploying Active Directory</h2>
+<h2>Step 2: Deploying Active Directory and Configuration</h2>
 <p>
   <ol>
      <li>Install Active Directory Domain Services</li>
@@ -184,39 +184,34 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
          <img width="464" alt="image" src="https://github.com/user-attachments/assets/b26adcbb-cec1-4142-86c3-8ec6b34e0a75" />
          <img width="275" alt="image" src="https://github.com/user-attachments/assets/a87863a0-4f93-4964-94fb-6e7010e13a92" />
          <img width="470" alt="image" src="https://github.com/user-attachments/assets/d811ca9e-6969-4fae-a62c-3d0c0d499bd5" />
-
-          <li>Remote Desktop into DC-1 using the Public IP Address</li>
-          <li>Install Active Directory Domain Services</li>
-          <img width="713" alt="image" src="https://github.com/user-attachments/assets/71aee3fc-cdda-48d5-9641-e0d2ea5e4a03" /> 
-          <img width="488" alt="image" src="https://github.com/user-attachments/assets/5a7b7ec0-6b7b-483d-80b2-9df7e00900b3" />
-          <img width="494" alt="image" src="https://github.com/user-attachments/assets/554dd7db-689d-409d-90ed-6ac5f95c91f5" />
-          <img width="493" alt="image" src="https://github.com/user-attachments/assets/8646a212-c180-474a-b3d8-1956e5f15cad" />
-          <img width="497" alt="image" src="https://github.com/user-attachments/assets/c9841577-59b4-455f-8e98-75e8f2e1b94b" />
-          <img width="262" alt="image" src="https://github.com/user-attachments/assets/753fc772-f939-4d17-9b7a-241e15f5acac" />
-          <img width="494" alt="image" src="https://github.com/user-attachments/assets/420cd626-1840-4833-93d5-9bf26085d6f1" />
-          <img width="491" alt="image" src="https://github.com/user-attachments/assets/80356d31-1e35-4a76-85ff-40fd699ee09a" />
-          <img width="490" alt="image" src="https://github.com/user-attachments/assets/f47506d1-8468-4591-9d15-c93d1ba2c44c" />
-          <img width="592" alt="image" src="https://github.com/user-attachments/assets/cd2ecd22-b807-4bb4-bdd7-662b260239fc" />
-          <img width="494" alt="image" src="https://github.com/user-attachments/assets/d6a6b4ac-b622-4ffb-b8e1-7904477da4e9" />
       </ul>
   </ol>
 <p>
-<h2>Step 3: Preparing Active Directory Infrastructure in Azure</h2>
+<h2>Step 3: Creating Users with Powershell</h2>
 <p>
   <ol>
-     <li>Observe your Virtual Network within Network Watcher</li>
+     <li>Setup Remote Desktop for non-addministrative users on Client-1</li>
+    <li>Create a bunch of additional users and attempt to log into Client-1 with one of the users</li>
   </ol>
 <p>
-<h2>Step 4: Preparing Active Directory Infrastructure in Azure</h2>
+<h2>Step 4: Managing Accounts withini Azure-hosted AD</h2>
 <p>
   <ol>
-     <li>Observe your Virtual Network within Network Watcher</li>
+     <li>Dealing with Account Lockouts</li>
+    <li>Enabling and Disabling Accounts</li>
+    <li>Observing Logs</li>
   </ol>
 <p>
-<h2>Step 5: Preparing Active Directory Infrastructure in Azure</h2>
+<h2>Step 5: Configuring Group Policy</h2>
 <p>
   <ol>
-     <li>Observe your Virtual Network within Network Watcher</li>
+     <li>Open the Group Policy Management Console (GPMC)</li>
+    <li>Create or Edit a Group Policy Object (GPO)</li>
+    <li>Navigate to the Account Lockout Policy Settings</li>
+    <li>Configure Account Lockout Policy Settings</li>
+    <li>Link the GPO to an Organizational Unit (OU)</li>
+    <li>Update Group Policy</li>
+    <li>Verify the Policy</li>
   </ol>
 <p>
 
