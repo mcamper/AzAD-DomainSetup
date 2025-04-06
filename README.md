@@ -162,6 +162,8 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
          <img width="278" alt="image" src="https://github.com/user-attachments/assets/c644fbc4-f295-482c-8443-c9d6a676cd41" />
          <img width="272" alt="image" src="https://github.com/user-attachments/assets/13c0ae35-c149-45b0-a9a3-a2cbac6b4804" />
          <img width="471" alt="image" src="https://github.com/user-attachments/assets/a1185341-d434-4d4c-8656-857620d7be7a" />
+       </ul>
+        <u><li>Create Directories, then Domain Admin user within the domain. Notice "labuser" is listed inside "Users" directory</li>
          <img width="383" alt="image" src="https://github.com/user-attachments/assets/b7a9d721-eccd-41e3-862f-1e0b13e2ebb5" />
          <img width="256" alt="image" src="https://github.com/user-attachments/assets/1de7c116-0366-4cc0-92f4-ad44beef2dc6" />
          <img width="254" alt="image" src="https://github.com/user-attachments/assets/f856c397-8748-4f57-8978-4f7bb3f419ae" />
