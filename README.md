@@ -209,7 +209,7 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
     <li>Create a bunch of additional users and attempt to log into Client-1 with one of the users</li>
   </ol>
 <p>
-<h2>Step 4: Managing Accounts withini Azure-hosted AD</h2>
+<h2>Step 4: Creating Users with PowerShell</h2>
 <p>
   <ol>
      <li>Dealing with Account Lockouts</li>
@@ -217,7 +217,7 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
     <li>Observing Logs</li>
   </ol>
 <p>
-<h2>Step 5: Configuring Group Policy</h2>
+<h2>Step 5: Managing Accounts within Azure-hosted AD</h2>
 <p>
   <ol>
      <li>Open the Group Policy Management Console (GPMC)</li>
