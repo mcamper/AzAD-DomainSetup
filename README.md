@@ -202,8 +202,10 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
 <h2>Step 3: Setup Remote Desktop for Non-Administrative Users</h2>
 <p>
   <ol>
-     <li>Setup Remote Desktop for non-addministrative users on Client-1</li>
+     <li>Setup Remote Desktop for non-administrative users on Client-1</li>
        <ul><li>Log into Client-1 as "mydomain.com\jane_admin". Password: Cyberlab123!</li></ul>
+        <img width="259" alt="image" src="https://github.com/user-attachments/assets/68169e77-ee1b-402d-8835-e76cf7044b94" />
+        <img width="251" alt="image" src="https://github.com/user-attachments/assets/553a1385-c005-423d-a284-31dd648a1a54" />
     <li>Open system properties. Click "Remote Desktop"</li>
        <ul><li>Allow "domain users" access to remote desktop</li></ul>
     <li>Create a bunch of additional users and attempt to log into Client-1 with one of the users</li>
