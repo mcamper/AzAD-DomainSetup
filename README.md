@@ -267,8 +267,22 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
               <ul><li>In the Group Policy Management Editor, expand the following: Computer Configuration>Policies>Window Settings><br>Security Settings>Account Policies>Account Lockout Policy</li></ul>
               <img width="683" alt="image" src="https://github.com/user-attachments/assets/5aec4442-ca32-469f-b725-3f057546d371" />
       <li>Configure Account Lockout Policy Settings</li>
+              <img width="696" alt="image" src="https://github.com/user-attachments/assets/ab846dfb-b4c6-4acf-bdc9-0a04b551f740" />
+              <img width="700" alt="image" src="https://github.com/user-attachments/assets/aa7a65cf-ff46-4d6b-aa76-fd238e0f917e" />
+              <img width="260" alt="image" src="https://github.com/user-attachments/assets/0ab386b3-908a-496c-bf1b-f5e7dd74bef3" />
+              <img width="324" alt="image" src="https://github.com/user-attachments/assets/2f5e7bac-c979-47ab-9074-a2b28e3b755e" />
+              <img width="417" alt="image" src="https://github.com/user-attachments/assets/d5988064-52ad-442c-8815-6bd59859f570" />
+              <img width="321" alt="image" src="https://github.com/user-attachments/assets/98fbc4af-8010-47ec-a615-6ba6f62d114f" />
+              <img width="465" alt="image" src="https://github.com/user-attachments/assets/1e5d47c9-7a8a-4c19-b0c6-6e4fb0a92cb2" />
+              <img width="476" alt="image" src="https://github.com/user-attachments/assets/5d8f2b73-0817-40dc-963f-a670af056dbd" />
+              <img width="704" alt="image" src="https://github.com/user-attachments/assets/3649f923-1cc0-4736-a538-cb2e44556385" />
       <li>Link the GPO to an Organizational Unit (OU)</li>
+              <img width="310" alt="image" src="https://github.com/user-attachments/assets/b600c251-8c72-48b7-aa55-8658d4a21bcf" />
+              <img width="578" alt="image" src="https://github.com/user-attachments/assets/ac130d35-2ed8-482f-980d-46d96b8cb477" /
       <li>Update Group Policy</li>
+              <ul><li>Can wait for the Group Policy to propagate automatically, or can force an update immediately on the client machine, Client-1</li>
+                  <ul><li>Open Command Prompt and type gpupdat /force, then press Enter</li></ul>
+              </ul>   
       <li>Verify the Policy</li>
   </ol>
 <p>
