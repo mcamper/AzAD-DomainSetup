@@ -176,6 +176,7 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
          <img width="254" alt="image" src="https://github.com/user-attachments/assets/ac75dea5-de5a-4879-81a2-babd863282b0" />
           <ul><li>Password: Cyberlab123!</li></ul>
          <img width="287" alt="image" src="https://github.com/user-attachments/assets/0a4bf9b4-5060-44c7-9308-dc1ab72f041a" />
+          <li>Join Client-1 to your domain (mydomain.com)</li>
          <img width="479" alt="image" src="https://github.com/user-attachments/assets/8569a29f-1b57-4f7e-957a-ce812c3e4ccb" />
          <img width="470" alt="image" src="https://github.com/user-attachments/assets/e590a037-0c11-433d-af13-114fa3d6cf45" />
          <img width="271" alt="image" src="https://github.com/user-attachments/assets/7b17afc1-83de-4bf1-9a97-7950be2a5261" />
