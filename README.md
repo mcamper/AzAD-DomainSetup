@@ -144,12 +144,12 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
        <img width="476" alt="image" src="https://github.com/user-attachments/assets/0d82e5b1-98bd-498a-9f91-ee210e9951bf" />
        <img width="481" alt="image" src="https://github.com/user-attachments/assets/f2ce3f84-eaf6-412e-b037-c28ed08714ce" />
        <img width="475" alt="image" src="https://github.com/user-attachments/assets/39aca6ef-b7f7-4f17-b6a2-4f3bf9a7fb87" />
-      <li>Computer will restart. After restarting, log back into DC-1 as user: mydomain.com\labuser</li>
+      <li>Computer will restart. After restarting, log back into DC-1 as user: mydomain.com\labuser password: Cyberlab123!</li>
        <img width="259" alt="image" src="https://github.com/user-attachments/assets/c161bae1-e0c8-4fbc-8c79-ac235b4099d6" />
        <img width="254" alt="image" src="https://github.com/user-attachments/assets/05a93807-49fe-4902-a9cd-87a15e93ca75" />
        <img width="281" alt="image" src="https://github.com/user-attachments/assets/da9a879e-685d-4bdc-a11b-d2c50ade3d2e" />
     </ul>
-     <li>Create a Domain Admin user within the domain</li>
+     <li>Create a Directories, then Domain Admin user within the domain</li>
        <ul>
          <img width="258" alt="image" src="https://github.com/user-attachments/assets/2649af3f-eea7-4685-8c46-bf5abe9a3373" />
          <img width="469" alt="image" src="https://github.com/user-attachments/assets/593aca2f-caf1-4506-bca5-aea6bc2a1d20" />
