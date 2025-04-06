@@ -250,7 +250,8 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
             <img width="334" alt="image" src="https://github.com/user-attachments/assets/f13687d5-4755-4d1a-b24f-c7e2c4ae42f2" />
             <img width="295" alt="image" src="https://github.com/user-attachments/assets/a293f485-6b37-4e47-b0f7-d0ab6c271211" />
             <img width="274" alt="image" src="https://github.com/user-attachments/assets/59f1b3d1-ecad-4b72-a83a-a538234a926d" />
-    <li>Observing Logs</li>
+    
+
   </ol>
 <p>
 <h2>Step 5: Configuring Group Policy</h2>
@@ -287,6 +288,12 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
                   <img width="272" alt="image" src="https://github.com/user-attachments/assets/6392a6f9-c67a-4898-948e-796d157cb204" />
               </ul>   
       <li>Verify the Policy</li>
+                  <img width="456" alt="image" src="https://github.com/user-attachments/assets/977331c7-0038-4f9a-8ad6-64132715a387" />
+                  <img width="321" alt="image" src="https://github.com/user-attachments/assets/86607dde-3f7c-4bea-9868-0f3861f6d6f6" />
+                  <img width="529" alt="image" src="https://github.com/user-attachments/assets/9b5cecb6-6756-4aaf-b6d8-5cc30f1a9541" />
+                  <img width="524" alt="image" src="https://github.com/user-attachments/assets/7b9fc1d1-574b-4516-bad3-4714562dec92" />
+                  <img width="188" alt="image" src="https://github.com/user-attachments/assets/97167c98-2c86-4b58-a41e-b2d425336672" />
+
   </ol>
 <p>
 
@@ -301,6 +308,19 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
     <li>Link the GPO to an Organizational Unit (OU)</li>
     <li>Update Group Policy</li>
     <li>Verify the Policy</li>
+              <img width="482" alt="image" src="https://github.com/user-attachments/assets/76fb5f5f-d521-4ab5-97ba-5fde1dafadc3" />
+              <img width="342" alt="image" src="https://github.com/user-attachments/assets/1a10ba2d-7365-4109-92be-1d495df366a3" />
+              <img width="302" alt="image" src="https://github.com/user-attachments/assets/41b16ffb-ce98-4fe4-9870-429f1ff04151" />
+    <li>Observing Logs</li>
+            <img width="494" alt="image" src="https://github.com/user-attachments/assets/b487ccce-8522-415c-a358-e7fded44fe26" />
+            <img width="811" alt="image" src="https://github.com/user-attachments/assets/777a46d2-0e30-47a6-a22d-2fb3feecc1d7" />
+            <img width="265" alt="image" src="https://github.com/user-attachments/assets/c1776c52-eb06-4863-86a1-dd498b596563" />
+            <img width="271" alt="image" src="https://github.com/user-attachments/assets/cb5fbd2a-79f8-41d9-ba41-77f1e395f6ba" />
+            <img width="647" alt="image" src="https://github.com/user-attachments/assets/5c7ba652-c34c-4e00-bd63-223506bb61f0" />
+
+
+
+
   </ol>
 <p>
 
