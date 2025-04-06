@@ -24,7 +24,7 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
 - Step 1: Preparing Active Directory Infrastructure in Azure
 - Step 2: Deploying Active Directory and Configuration
 - Step 3: Setup Remote Desktop for Non-Administrative Users
-- Step 4: Creating Users with PowerShell
+- Step 4: Create Users with PowerShell
 - Step 5: Enabling and Unlocking Accounts and Resetting Passwords
 - Step 5: Group Policy & Managing Accounts
 
@@ -229,7 +229,19 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
     <li>Verify the Policy</li>
   </ol>
 <p>
-
+<p>
+<h2>Step 5: Configuring Group Policy</h2>
+<p>
+  <ol>
+     <li>Open the Group Policy Management Console (GPMC)</li>
+    <li>Create or Edit a Group Policy Object (GPO)</li>
+    <li>Navigate to the Account Lockout Policy Settings</li>
+    <li>Configure Account Lockout Policy Settings</li>
+    <li>Link the GPO to an Organizational Unit (OU)</li>
+    <li>Update Group Policy</li>
+    <li>Verify the Policy</li>
+  </ol>
+<p>
 
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
