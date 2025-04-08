@@ -190,8 +190,9 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
          <img width="180" alt="image" src="https://github.com/user-attachments/assets/22357124-952e-4b0e-ab27-37001efdb55d" />
          <img width="225" alt="image" src="https://github.com/user-attachments/assets/ff51f1d7-838b-4cc5-8578-354e775c9e07" />
          <img width="227" alt="image" src="https://github.com/user-attachments/assets/d18ef630-bd42-48ac-986d-3161b7f28f90" />
-          <ul><li>Log into the Domain Controller and verify Client-1 shows up in ADUC</li>
-            <li>Create a new OU named "_CLIENTS" and drag Client-1 into there</li>
+      <li>Log into the Domain Controller and verify Client-1 shows up in ADUC</li>
+          <img width="471" alt="Screenshot 2025-03-29 162317" src="https://github.com/user-attachments/assets/d84f3cd0-d36b-439e-86a1-f365a4b16292" />
+      <li>Create a new OU named "_CLIENTS" and drag Client-1 into there</li>
           </ul>
          <img width="464" alt="image" src="https://github.com/user-attachments/assets/b26adcbb-cec1-4142-86c3-8ec6b34e0a75" />
          <img width="275" alt="image" src="https://github.com/user-attachments/assets/a87863a0-4f93-4964-94fb-6e7010e13a92" />
@@ -277,7 +278,7 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
               <img width="465" alt="image" src="https://github.com/user-attachments/assets/1e5d47c9-7a8a-4c19-b0c6-6e4fb0a92cb2" />
               <img width="476" alt="image" src="https://github.com/user-attachments/assets/5d8f2b73-0817-40dc-963f-a670af056dbd" />
               <img width="704" alt="image" src="https://github.com/user-attachments/assets/3649f923-1cc0-4736-a538-cb2e44556385" />
-      <li>Link the GPO to an Organizational Unit (OU)</li>
+      <li>Confirm edit. GPO aleady linked to an Organizational Unit (OU)</li>
               <img width="310" alt="image" src="https://github.com/user-attachments/assets/b600c251-8c72-48b7-aa55-8658d4a21bcf" />
               <img width="578" alt="image" src="https://github.com/user-attachments/assets/ac130d35-2ed8-482f-980d-46d96b8cb477" /
       <li>Update Group Policy</li>
