@@ -280,9 +280,9 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
               <img width="704" alt="image" src="https://github.com/user-attachments/assets/3649f923-1cc0-4736-a538-cb2e44556385" />
       <li>Confirm edit. GPO aleady linked to an Organizational Unit (OU)</li>
               <img width="310" alt="image" src="https://github.com/user-attachments/assets/b600c251-8c72-48b7-aa55-8658d4a21bcf" />
-              <img width="578" alt="image" src="https://github.com/user-attachments/assets/ac130d35-2ed8-482f-980d-46d96b8cb477" /
+              <img width="578" alt="image" src="https://github.com/user-attachments/assets/ac130d35-2ed8-482f-980d-46d96b8cb477" />
       <li>Update Group Policy</li>
-              <ul><li>Can wait for the Group Policy to propagate automatically, or can force an update immediately on the client machine, Client-1</li>
+              <ul><li>Can wait 90 minutes for the Group Policy to propagate automatically, or can force an update immediately on the client machine, Client-1</li>
                 <img width="309" alt="image" src="https://github.com/user-attachments/assets/d5f749a4-b2b5-4473-ac4a-16fc0884164f" />
                   <ul><li>Open Command Prompt and type gpupdat /force, then press Enter</li></ul>
                   <img width="313" alt="image" src="https://github.com/user-attachments/assets/76261df4-83e3-4c99-856b-55338575173d" />
@@ -302,7 +302,7 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
 <h2>Step 5: Managing Accounts within Azure-hosted AD</h2>
 <p>
   <ol>
-    <li>Open the Group Policy Management Console (GPMC)</li>
+    <li>Inside DC-1, go back to ADUC</li>
     <li>Create or Edit a Group Policy Object (GPO)</li>
     <li>Navigate to the Account Lockout Policy Settings</li>
     <li>Configure Account Lockout Policy Settings</li>
