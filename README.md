@@ -108,7 +108,7 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
       <li>Connect remotely. Paste Client-1's Public IP address. Use same username and password previously used. </li>
       <li>Attempt to ping DC-1's Private IP address</li>
       <img width="277" alt="image" src="https://github.com/user-attachments/assets/492f14ec-281a-49bc-9100-3240a6f88e92" />
-      <li>In Powershell, run ipconfig /all. The output for the DNS settings should show DC-1's Private IP address</li>
+      <li>In PowerShell, run ipconfig /all. The output for the DNS settings should show DC-1's Private IP address</li>
       <img width="490" alt="image" src="https://github.com/user-attachments/assets/04e76980-5bd7-4014-a6b2-f760a7d8dffc" />
     </ul>
      
