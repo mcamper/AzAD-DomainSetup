@@ -302,13 +302,8 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
 <h2>Step 5: Managing Accounts within Azure-hosted AD</h2>
 <p>
   <ol>
-    <li>Inside DC-1, go back to ADUC</li>
-    <li>Create or Edit a Group Policy Object (GPO)</li>
-    <li>Navigate to the Account Lockout Policy Settings</li>
-    <li>Configure Account Lockout Policy Settings</li>
-    <li>Link the GPO to an Organizational Unit (OU)</li>
-    <li>Update Group Policy</li>
-    <li>Verify the Policy</li>
+    <li>Managing Account Lockouts, Enabling and Disabling Accounts</li>
+        <ul><li>Inside DC-1, go back to ADUC</li></ul>
               <img width="482" alt="image" src="https://github.com/user-attachments/assets/76fb5f5f-d521-4ab5-97ba-5fde1dafadc3" />
               <img width="342" alt="image" src="https://github.com/user-attachments/assets/1a10ba2d-7365-4109-92be-1d495df366a3" />
               <img width="302" alt="image" src="https://github.com/user-attachments/assets/41b16ffb-ce98-4fe4-9870-429f1ff04151" />
@@ -326,99 +321,4 @@ This tutorial outlines the implementation of Active Directory Domain Services (A
 <p>
 
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Create a Virtual Network.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Create a Domain Controller VM (Windows Server 2022) named "DC-A".  Let's use Username: Testuser and Password: Testuser123!
-</p>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-After the VM is created, configure the NIC (Network Interface Card) with a private IP address.
-</p>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Log into the VM and disable the Windows Firewall (for testing connectivity).
-</p>
-<h2>2. Setup Client-A in Azure</h2>
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Create another VM using Windows 10 and name it Client-A</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Set the username as testuser and the password as Testuser123!.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Ensure both VMs are in the same region and virtual network.
-</p>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-After creating Client-A, set its DNS settings to point to DC-A's private IP address.
-</p>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Test the connection by using PowerShell to ping Client-A from DC-A.
-</p>
-<h2>3. Deploying Active Directory</h2>
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Log into DC-A and install Active Directory Domain Services (AD DS)</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Promote DC-A to a Domain Controller, creating a new domain (e.g., medomain.com).
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Restart and then log back into DC-A as user.
-</p>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Untitled.
-</p>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Untitled.
-</p>
-<br /># AzAD-DomainSetup
+# AzAD-DomainSetup
